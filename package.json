@@ -1,0 +1,20 @@
+{
+  "name": "mvc---a-tech-blog",
+  "version": "1.0.0",
+  "description": "MVC Techblog Homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMatcke/MVC---A-Tech-Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrMatcke/MVC---A-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/MrMatcke/MVC---A-Tech-Blog#readme"
+}
