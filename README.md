@@ -18,7 +18,8 @@ dotenv
 
 User Story
 -----------
-
+AS A person who works in Tech, who writes about tech, I WANT a CMS-style blog site
+SO THAT I can publish articles, blog posts, and share my opinions
 
 Installation
 -----------
