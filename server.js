@@ -16,12 +16,12 @@ const PORT = process.env.PORT || 3001;
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
-  secret: 'bigbluedog',
+  secret: 'Super Secret secret',
   cookie: {
         // Session expires in 10 minutes
         expires: 10 * 60 * 1000
   },
-  resave: true,
+  resave: false,
   rolling: true,
   saveUninitialized: true,
   store: new SequelizeStore({
@@ -32,7 +32,7 @@ const sess = {
 app.use(session(sess));
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.engine('handlebars', hbs.engine);
