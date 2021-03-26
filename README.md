@@ -11,7 +11,6 @@ A Blog buit using Model VIew Controller paradigm. Libraries used:
 MySql
 Express
 Sequelize
-Bulma
 Hanndlebars
 dotenv
 
@@ -26,5 +25,6 @@ Installation
 
 Instructions/commands
 -----------
+Add your .env file to the root of the project.
 
 
